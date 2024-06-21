@@ -6,7 +6,9 @@ using cmake and wix
 Suggested use:
 ```
 mkdir build
-cmake --build build --config Release # builds the .exe
 cd build
+cmake ..
+cmake --build . --config Release # builds the .exe
 cpack -G WIX # builds the .msi
+cd ..
 ```
