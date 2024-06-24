@@ -12,3 +12,5 @@ cmake --build . --config Release # builds the .exe
 cpack -G WIX # builds the .msi
 cd ..
 ```
+
+Note that changing the version number will do the right thing (remove old, replace with new)
